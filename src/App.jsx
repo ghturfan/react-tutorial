@@ -1,13 +1,12 @@
-import Card from './Card';
-import Student from './Student';
+import React from 'react';
+import ClickExample from './ClickExample';
 
 function App() {
   return (
-    <>
-      <Student name="John" age={25} isStudent={true}/>
-      <Student name="Jane" age={30} isStudent={false}/>
-      <Student />
-    </>
+    <div className="App">
+      <h1>React Click Example</h1>
+      <ClickExample />
+    </div>
   );
 }
 

@@ -1,13 +1,9 @@
 import React from 'react';
-import ClickExample from './ClickExample';
+import MyComponents from './MyComponents';
+import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>React Click Example</h1>
-      <ClickExample />
-    </div>
-  );
+  return <MyComponents></MyComponents>;
 }
 
 export default App;

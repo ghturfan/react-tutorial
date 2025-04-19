@@ -41,7 +41,7 @@
   color: #888;
 }
 
-.cool-button{
+.cool-button {
   background-color: lightblue;
   color: white;
   padding: 12px 24px;
@@ -54,4 +54,28 @@
 
 .cool-button:hover {
   background-color: turquoise;
+}
+
+.counter {
+  max-width: 400px;
+  margin: 2rem auto;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.counter button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: hsl(39, 100%, 50%);
+  border: none;
+}
+
+.counter button:hover {
+  background-color: hsl(39, 100%, 40%);
+}
+
+.counter button:checked{
+  background-color: hsl(39, 100%, 60%);
 }

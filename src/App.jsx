@@ -1,9 +1,9 @@
 import React from 'react';
-import MyComponents from './MyComponents';
+import MyComponents2 from './MyComponents2';
 import './App.css';
 
 function App() {
-  return <MyComponents></MyComponents>;
+  return <MyComponents2></MyComponents2>;
 }
 
 export default App;

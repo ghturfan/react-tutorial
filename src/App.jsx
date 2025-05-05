@@ -1,9 +1,10 @@
 import React from 'react';
-import MyComponents2 from './MyComponents2';
+import ColorPicker from './ColorPicker';
 import './App.css';
+import './color.css';
 
 function App() {
-  return <MyComponents2></MyComponents2>;
+  return <ColorPicker></ColorPicker>;
 }
 
 export default App;

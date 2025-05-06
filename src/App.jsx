@@ -1,10 +1,8 @@
 import React from 'react';
-import ColorPicker from './ColorPicker';
-import './App.css';
-import './color.css';
+import MyComponents3 from './MyComponents3';
 
 function App() {
-  return <ColorPicker></ColorPicker>;
+  return (<MyComponents3 />);
 }
 
 export default App;
